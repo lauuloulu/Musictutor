@@ -2,7 +2,6 @@
 @import url('reset.css');
 
 
-/* //---------------main----------------- */
 .main-container{
     display: flex;
     justify-content: center;
@@ -58,7 +57,7 @@
 
 }
 
-/* .btn-contain1{
+.btn-contain1{
     width: 100%;
     height: 70px;
     background-color: rgb(219, 219, 134);
@@ -88,4 +87,4 @@
     position: relative;
     bottom: 34vh;
     left: 37vw;
-}   */
+}  
