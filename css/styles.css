@@ -49,19 +49,27 @@
     font-weight: 700;
     color: var(--tertiary-color);
 }
-
-.electric-batery{
+.main-container-batery{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+   
+}
+/* .electric-batery{
     width: 90%;
     margin-top: 10%;
     margin-bottom: 10%;
     position: relative;
-}
+} */
 
 .btn-container{
-    position: absolute;
-    width: 100%;
-    bottom: 35%;
-    height: 27%;
+
+    background-image: url("../imagenes/drum.png");
+    background-size: cover;
+    background-position: center;
+    width: 395px;
+    padding-bottom: 60px;
 }
 
 .btn-contain1{
@@ -96,17 +104,21 @@
 
 #btn3{
     position: relative;
-    width: 76px;
+    width: 80px;
     height: 76px;
     border-radius: 50%;
+    bottom: 27px;
+    right: 9px;
     background-color: pink;
 }
 
 #btn4{
     position: relative;
-    width: 76px;
+    width: 80px;
     height: 76px;
     border-radius: 50%;
+    bottom: 27px;
+    left: 10px;
     background-color: pink;
 }
 
@@ -118,7 +130,8 @@
 }
 
 #btn5{
-    margin-left: 50px;
+    margin-top: 16px;
+    margin-left: 31px;
     background-color: green;
     width: 60px;
     height: 60px;
@@ -127,13 +140,13 @@
     bottom: 10px;
 }
 #btn6{
-    margin-right: 50px;
+    margin-right: 35px;
+    margin-top: 7px;
     background-color: green;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     position: relative;
-    bottom: 10px;
 }
 
 .btn-contain4{
@@ -149,8 +162,6 @@
     border-radius: 50%;
     background-color: yellow;
     position: relative;
-    bottom: 10px;
-    left: 10px;
 }
 
 #btn8{
@@ -159,8 +170,6 @@
     border-radius: 50%;
     background-color: yellow;
     position: relative;
-    bottom: 10px;
-    right: 10px;
 }
 
 
