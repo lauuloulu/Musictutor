@@ -1,2 +1,14 @@
 @import url('variables.css');
 @import url('reset.css');
+
+footer {
+  background-image: linear-gradient(rgb(14, 14, 100), rgb(21, 16, 49));
+  color: #fff;
+}
+
+#footer-main-button {
+  background-color: #43f481;
+  color: #000;
+  border-radius: 1rem;
+}
+  
