@@ -12,7 +12,7 @@ let btn8= document.getElementById('btn8')
 
 let bombo= document.getElementById('bombo')//
 let crash= document.getElementById('crash')//
-let hithat= document.getElementById('hithat') //
+let hithat= document.getElementById('hit-hat') //
 let redoblante= document.getElementById('redoblante')
 let tom1= document.getElementById('tom1')
 let tom2= document.getElementById('tom2')
@@ -29,11 +29,15 @@ let tom4= document.getElementById('tom4')
   btn1.addEventListener("click", bomboPlay, false);
   btn1.addEventListener("mouseover", bomboPlay, false);
   
+
+
   let crashPlay = function (e) {
     crash.play();
   };
   btn2.addEventListener("click", crashPlay, false);
   btn2.addEventListener("mouseover", crashPlay, false);
+
+
 
   let hitHatPlay = function (e) {
     hithat.play();
@@ -47,6 +51,8 @@ let tom4= document.getElementById('tom4')
   };
   btn4.addEventListener("click", redoblantePlay, false);
   btn4.addEventListener("mouseover", redoblantePlay, false);
+
+
 
   let tom1Play = function (e) {
     tom1.play();
@@ -62,6 +68,7 @@ let tom4= document.getElementById('tom4')
   btn6.addEventListener("click", tom2Play, false);
   btn6.addEventListener("mouseover", tom2Play, false);
   
+
   
   let tom3Play = function (e) {
   
@@ -70,6 +77,8 @@ let tom4= document.getElementById('tom4')
   btn7.addEventListener("click", tom3Play, false);
   btn7.addEventListener("mouseover", tom3Play, false);
   
+  
+
   
   let tom4Play = function (e) {
   
