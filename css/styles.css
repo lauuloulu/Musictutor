@@ -11,7 +11,7 @@
 
 .main-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
@@ -54,14 +54,10 @@
     justify-content: center;
     height: 100%;
     margin-top: 10%;
+/* hay que quitar el top en la vista de Desktop */
    
 }
-/* .electric-batery{
-    width: 90%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    position: relative;
-} */
+
 
 .btn-container{
 
