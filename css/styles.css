@@ -1,2 +1,8 @@
 @import url('variables.css');
 @import url('reset.css');
+.navbar {
+    background-color: var(--primary-color);
+}
+.nav-link{
+    color: white;
+}
