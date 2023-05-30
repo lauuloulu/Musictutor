@@ -1,2 +1,179 @@
 @import url('variables.css');
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+
+.navbar {
+    background-color: var(--primary-color);
+}
+.nav-link{
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 10% 0 3% 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.title-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+
+.btn-green{
+    background-color: var(--secondary-color);
+    padding: 3% 13%;
+    border-radius: 25px;
+    margin-top: 10%;
+    font-weight: 700;
+    color: var(--tertiary-color);
+}
+
+.electric-batery{
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.btn-container{
+    position: absolute;
+    width: 100%;
+    bottom: 35%;
+    height: 27%;
+}
+
+.btn-contain1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ #btn1{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#btn2{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: orange;
+   
+} 
+
+.btn-contain2{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50%;
+}
+
+#btn3{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+#btn4{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.btn-contain3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#btn5{
+    margin-left: 50px;
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+#btn6{
+    margin-right: 50px;
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+.btn-contain4{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#btn7{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#btn8{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* <--!estilos footer --> */
+footer {
+  background-image: linear-gradient(rgb(14, 14, 100), rgb(21, 16, 49));
+  color: #fff;
+}
+
+#footer-main-button {
+  background-color: #43f481;
+  color: #000;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+}
+  
