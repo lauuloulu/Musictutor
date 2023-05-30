@@ -61,7 +61,7 @@
 
 .btn-container{
 
-    background-image: url("../imagenes/drum.png");
+    background-image: url("../assets/images/drum.png");
     background-size: cover;
     background-position: center;
     width: 395px;
@@ -171,14 +171,14 @@
 
 /* <--!estilos footer --> */
 footer {
-  background-image: linear-gradient(rgb(14, 14, 100), rgb(21, 16, 49));
+  background-color: var(--primary-color);
   color: #fff;
 }
 
-#footer-main-button {
-  background-color: #43f481;
+ #footer-main-button {
+  background-color: var(--secondary-color);
   color: #000;
   border-radius: 1rem;
   margin-bottom: 10px;
-}
+} 
   
