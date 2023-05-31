@@ -89,14 +89,14 @@
    
 } 
 
-.btn-contain2{
+/* .btn-contain2{
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 50%;
-}
+} */
 
 #btn3{
     position: relative;
