@@ -4,30 +4,46 @@
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
-![GitHub Org's stars](https://img.shields.io/github/stars/Musictutor?style=social)
-
-  <h4 align="center">
-  :construction: Proyecto en construcción :construction:
-  </h4> 
+![GitHub Org's stars](https://img.shields.io/github/stars/lauuloulu?style=social)
+ 
   
   ## Table of Contents
 1. [Descripción del Proyecto](#descripcion-proyecto)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-6. 
-  <h4> Descripción del Proyecto</h4>
-  <p> Nos encontramos en el desarrollo de una aplicación web interactiva para dar clases de instrumentos musicales de manera online. La intención es que el usuario pueda interactuar con dos instrumentos y tener una experiencia de exploración musical y aprendizaje de alta calidad.
+2. [Estado del Proyecto](#estado-proyecto)
+3. [Funcionalidades del proyecto](#funcionalidades-proyecto)
+4. [Acceso al Proyecto](#acceso-proyecto)
+5. [Abre y ejecuta el proyecto](#abre-y-ejecuta)
 
-  El funcionamiento esperado es que cuando el usuario haga click/pulse una tecla/toque(mobile) en cada uno de los “pads” del instrumento, para que emita el sonido/nota correspondiente. Funciona en cualquier dispositivo y es responsive
+
+  <h4> 1. Descripción del Proyecto</h4>
+  <p> Nos encontramos en el desarrollo de una aplicación web interactiva para dar clases de instrumentos musicales de manera online. La intención es que el usuario pueda interactuar con dos instrumentos y tener una            experiencia de exploración musical y aprendizaje de alta calidad. 
+
+  El funcionamiento esperado es que cuando el usuario haga click/pulse una tecla/toque(mobile) en cada uno de los “pads” del instrumento, para que emita el sonido/nota correspondiente. Funciona en cualquier dispositivo y  es responsive. </p> 
 
   El diseño de una landing page con una batería funcional, como demo para captar clientes. Ademas incorporamos un segundo instrumento para que pueda aprender tambien a utilzarlo e interactuar con el.
   La idea es que sea una pagina fácil 
   
-  ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+  
+  <h4> 2. Estado del Proyecto</h4>
+  <h4>  :construction: Proyecto en construcción :construction:  </h4> 
+  
+   <p> Hemos realizado la primer vista para movil y diseñado el segundo instrumento. Estamos trabajando en la manera de hacer responsive la pagina y en los media query 
+  todas las teclas y click tienen sonido y animaciones.</p>
+  
+
+  ## :hammer:3.Funcionalidades del proyecto
+
+  - `Eventos Click 1`: Cada “pad” de la batería DEBE estar asociado a un evento de click 
+  - `Eventos Click 2`: Al hacer click en un “pad” se DEBE reproducir el sonido correspondiente al “pad” seleccionado .
+  - `Eventos del teclado 3`: Cada “pad” de la batería DEBE estar asociado a un evento de teclado
+  - `Eventos del teclado 4`: Cada “pad” DEBE tener una tecla asignada para que reproduzca el sonido correspondiente al presionarla.
+  - `Animaciones 5`: Los “pads” de la batería DEBEN tener animaciones visuales a cuando se les haga click o se presione la tecla asociada.
+  - `Animaciones 6`: Puede ser un cambio de color, un efecto de sombra, una animación de escala, etc.
+  - `Animaciones 7`: Las animaciones deben proporcionar retroalimentación visual al usuario para indicar que se ha realizado una acción.
+  
+\## 📁 4.Acceso al proyecto
+Para poder acceder al detalle de todo el proyecto deberian ingresar a la siguente direccion: 
+
+\## 🛠️ 5.Abre y ejecuta el proyecto
+
+  
