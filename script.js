@@ -3,6 +3,16 @@ function soundPlay(element) {
   element.play();
 }
 
+/*const btnActive = document.getElementsByClassName('btnactive');
+
+document.addEventListener('keydown', function(event) {
+  btnActive.classList.add('active');
+});
+
+document.addEventListener('keyup', function(event) {
+  btnActive.classList.remove('active');
+});*/
+
 btn1.addEventListener("click", function() {
   soundPlay(bombo);
 }, false);
