@@ -67,6 +67,7 @@
     background-position: center;
     width: 370px;
     padding-bottom: 60px;
+    color: white;
 }
 
 .btn-container button:active {
@@ -88,7 +89,6 @@
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: orange;
     margin-top: 31px;
 }
 
@@ -96,7 +96,6 @@
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: orange;
     margin-top: 31px;
 
    
@@ -107,7 +106,6 @@
     width: 80px;
     height: 76px;
     border-radius: 50%;
-    background-color: pink;
     bottom: 35px;
 
 }
@@ -118,7 +116,6 @@
     height: 76px;
     border-radius: 50%;
     bottom: 35px;
-    background-color: pink;
 }
 
 .btn-contain3{
@@ -131,7 +128,6 @@
 #btn5{
     margin-top: 8px;
     margin-left: 31px;
-    background-color: green;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -141,7 +137,6 @@
 #btn6{
     margin-right: 35px;
     margin-top: -2px;
-    background-color: green;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -159,7 +154,6 @@
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: yellow;
     position: relative;
     bottom: 16px;
     left: 2px;
@@ -169,7 +163,6 @@
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: yellow;
     position: relative;
     bottom: 16px;
     right: 6px;
