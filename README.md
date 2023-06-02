@@ -7,7 +7,7 @@
 ![GitHub Org's stars](https://img.shields.io/github/stars/lauuloulu?style=social)
  
   
-  ## Table of Contents
+  ## Indice
 1. [Descripción del Proyecto](#descripcion-proyecto)
 2. [Estado del Proyecto](#estado-proyecto)
 3. [Funcionalidades del proyecto](#funcionalidades-proyecto)
