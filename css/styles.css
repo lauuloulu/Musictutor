@@ -79,6 +79,15 @@
     text-shadow: 1px 1px 2px #427388;
 }
 
+.btn-container button.let-active {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+      0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+  
 .btn-contain1{
     display: flex;
     justify-content: space-between;
