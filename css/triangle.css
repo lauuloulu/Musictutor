@@ -22,16 +22,20 @@ header ul li{
 }
 
 .main-container-triangle{
-    width: 250px;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.btn-container-tri{
     background-image: url(../assets/images/triangle\ 2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 60px;
-    color: white;
-    left: 10%;
-    position: relative;
+    width: 370px;
+    max-width: 600px;
+    padding-bottom: 281px;
 }
 
 .btn-container1-tri{
@@ -49,17 +53,21 @@ header ul li{
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
   }
-.btn8tri{
-    margin-top: 20px;
-    padding-top: 200px;
+#btn8tri{
+    position: relative;
+    left: 55px;
+}
 
+#btn9tri{
+    position: relative;
+    right: 50px;
 }
 
 
 .btn-container2-tri{
     display: flex;
     justify-content: center;
-    top: 205px;
+    top: 294px;
     position: relative;
 }
 
@@ -73,12 +81,10 @@ header ul li{
     font-weight: 600; 
 }
 
-
-
 .btn-container-tri button{
-    background-color: aqua;
+    background-color: transparent;
+    color: white;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-
      }
