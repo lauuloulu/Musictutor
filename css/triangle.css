@@ -1,9 +1,77 @@
-.img-triangle{
-    width: 250px;
-    height: 300px;
-    background-image: url(../assets/images/triangle\ 2.png);
-    background-size: cover;
+@import url(./styles.css);
+
+.navbar {
+    background-color: var(--primary-color);
 }
+
+.nav-link {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+header ul li{
+    display: inline-table;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+} 
+
+.button-highlight{
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: rgba(31, 111, 186, 0.24)0 3px 8px;
+}
+
+.main-container-triangle{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.btn-container-tri{
+    background-image: url(../assets/images/triangle\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 370px;
+    max-width: 600px;
+    padding-bottom: 281px;
+}
+
+.btn-container1-tri{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 141px;
+}
+
+.btn-container-tri button.let-active {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+      0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+#btn8tri{
+    position: relative;
+    left: 55px;
+}
+
+#btn9tri{
+    position: relative;
+    right: 50px;
+}
+
+
+.btn-container2-tri{
+    display: flex;
+    justify-content: center;
+    top: 294px;
+    position: relative;
+}
+
+
 #footer-main-button {
     background-color: var(--secondary-color);
     color: #000;
@@ -12,3 +80,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600; 
 }
+
+.btn-container-tri button{
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     }
