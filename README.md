@@ -62,6 +62,10 @@
    <h2> Nuestro User Flow </h2>
    
    ![user flow](https://github.com/lauuloulu/Musictutor/assets/132447020/b9240db9-a5ac-4cea-b860-90a75894898e)
+   
+   <h2> Nuestro Work Flow </h2>
+   
+   ![Work Flow](https://github.com/lauuloulu/Musictutor/assets/132447020/0da7f42f-81ee-415a-9a1b-52c10f49b53e)
 
    ## Autoras
 
