@@ -1,20 +1,12 @@
 @import url(./styles.css);
-
 .navbar {
     background-color: var(--primary-color);
 }
-
-.nav-link {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
-header ul li{
-    display: inline-table;
-    margin: 0px auto;
-    text-align: center;
-    line-height: 40px;
-} 
-
+.header-triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
 .button-highlight{
     font-size: 1.2em;
     font-weight: bold;

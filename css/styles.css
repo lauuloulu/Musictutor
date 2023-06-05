@@ -39,7 +39,6 @@ header ul li{
     margin: 0;
     padding: 1% 0 0 0;
     font-family: 'Roboto', sans-serif;
-    padding-top: 5%;
 }
 
 .main-title{
@@ -72,7 +71,7 @@ header ul li{
     display: flex;
     justify-content: center;
     height: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
    
 }
 
@@ -205,7 +204,6 @@ footer {
   background-color: var(--primary-color);
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  margin-top: 7%;
 }
 
 footer p:first-child{
@@ -238,10 +236,6 @@ footer p:nth-child(2){
 
 }
 
-footer{
-    margin-top: 140px; 
-    
-}
 footer p:first-child{
     font-size: 33px;
 }
@@ -301,11 +295,6 @@ footer p:nth-child(2){
     #btn8{
         bottom: 0;
     }
-
-     footer{
-        margin-top: 7%; 
-        
-    } 
     footer p:first-child{
         font-size: 35px;
     }
