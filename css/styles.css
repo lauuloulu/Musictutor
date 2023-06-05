@@ -1,6 +1,7 @@
 @import url('variables.css');
 @import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('triangle.css');
 
 .navbar {
     background-color: var(--primary-color);
@@ -9,6 +10,11 @@
     color: white;
 }
 
+.button-highlight{
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: rgba(31, 111, 186, 0.24)0 3px 8px;
+}
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -99,6 +105,7 @@
     background-color: pink;
 }
 
+
 #btn4{
     position: relative;
     width: 80px;
@@ -160,16 +167,22 @@
 }
 
 
+
 /* <--!estilos footer --> */
 footer {
   background-color: var(--primary-color);
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
  #footer-main-button {
-  background-color: var(--secondary-color);
-  color: #000;
-  border-radius: 1rem;
-  margin-bottom: 10px;
-} 
-  
+    background-color: var(--secondary-color);
+    color: #000;
+    border-radius: 1rem;
+    color: var(--tertiary-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600
+    ;
+}
+
+    
