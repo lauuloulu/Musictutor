@@ -1,3 +1,26 @@
+@import url(./styles.css);
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.nav-link {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+header ul li{
+    display: inline-table;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+} 
+
+.button-highlight{
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: rgba(31, 111, 186, 0.24)0 3px 8px;
+}
+
 .main-container-triangle{
     width: 250px;
     height: 300px;
