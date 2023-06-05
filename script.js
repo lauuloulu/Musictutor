@@ -1,70 +1,84 @@
-//Botones//
-let btn1 = document.getElementById("btn1"); //
-let btn2 = document.getElementById("btn2"); //
-let btn3 = document.getElementById("btn3"); //
-let btn4 = document.getElementById("btn4");
-let btn5 = document.getElementById("btn5");
-let btn6 = document.getElementById("btn6");
-let btn7 = document.getElementById("btn7");
-let btn8 = document.getElementById("btn8");
+const btns = document.querySelectorAll('.btn-container button');
 
-//Sonidos//
 
-let bombo = document.getElementById("bombo"); //
-let crash = document.getElementById("crash"); //
-let hithat = document.getElementById("hit-hat"); //
-let redoblante = document.getElementById("redoblante");
-let tom1 = document.getElementById("tom1");
-let tom2 = document.getElementById("tom2");
-let tom3 = document.getElementById("tom3");
-let tom4 = document.getElementById("tom4");
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'w' || event.key === 'W') {
+    var audio = document.getElementById("bombo");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="w"]').classList.add('let-active');
+  } else if (event.key === 'u' || event.key === 'U') {
+    var audio = document.getElementById("crash");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="u"]').classList.add('let-active');
+  } else if (event.key === 'f' || event.key === 'F') {
+    var audio = document.getElementById("hithat");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="f"]').classList.add('let-active');
+  } else if (event.key === 'g' || event.key === 'G') {
+    var audio = document.getElementById("redoblante");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="g"]').classList.add('let-active');
+  } else if (event.key === 'd' || event.key === 'D') {
+    var audio = document.getElementById("tom1");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="d"]').classList.add('let-active');
+  } else if (event.key === 'h' || event.key === 'H') {
+    var audio = document.getElementById("tom2");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="h"]').classList.add('let-active');
+  } else if (event.key === 'c' || event.key === 'C') {
+    var audio = document.getElementById("tom3");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="c"]').classList.add('let-active');
+  } else if (event.key === 'b' || event.key === 'B') {
+    var audio = document.getElementById("tom1");
+    audio.play();
+    document.querySelector('.btn-container button[data-key="b"]').classList.add('let-active');
+  }
+});
 
-//Funcion botón + sonido//
+document.addEventListener('keyup', function(event) {
+  if (event.key === 'w' || event.key === 'W' || event.key === 'u' || event.key === 'U' || event.key === 'f' || event.key === 'F' || event.key === 'g' || event.key === 'G' || event.key === 'd' || event.key === 'D' || event.key === 'h' || event.key === 'H' || event.key === 'c' || event.key === 'C' || event.key === 'b' || event.key === 'B') {
+    document.querySelector(`.btn-container button[data-key="${event.key.toLowerCase()}"]`).classList.remove('let-active');
+  }
+});
 
-function bomboPlay() {
-  bombo.currentTime = 0
-  bombo.play();
+/*Click Event*/
+
+function soundPlay(element) {
+  element.currentTime = 0;
+  element.play();
 }
-btn1.addEventListener("click", bomboPlay, false);
 
-function crashPlay() {
-  crash.currentTime = 0
-  crash.play();
-}
-btn2.addEventListener("click", crashPlay, false);
+btn1.addEventListener("click", function() {
+  soundPlay(bombo);
+}, false);
 
-function hitHatPlay() {
-  hithat.currentTime = 0
-  hithat.play();
-}
-btn3.addEventListener("click", hitHatPlay, false);
+btn2.addEventListener("click", function() {
+  soundPlay(crash);
+}, false);
 
-function redoblantePlay() {
-  redoblante.currentTime = 0
-  redoblante.play();
-}
-btn4.addEventListener("click", redoblantePlay, false);
+btn3.addEventListener("click", function() {
+  soundPlay(hithat);
+}, false);
 
-function tom1Play() {
-  tom1.currentTime = 0
-  tom1.play();
-}
-btn5.addEventListener("click", tom1Play, false);
+btn4.addEventListener("click", function() {
+  soundPlay(redoblante);
+}, false);
 
-function tom2Play() {
-  tom2.currentTime = 0
-  tom2.play();
-}
-btn6.addEventListener("click", tom2Play, false);
+btn5.addEventListener("click", function() {
+  soundPlay(tom1);
+}, false);
 
-function tom3Play() {
-  tom3.currentTime = 0
-  tom3.play();
-}
-btn7.addEventListener("click", tom3Play, false);
+btn6.addEventListener("click", function() {
+  soundPlay(tom2);
+}, false);
 
-function tom4Play() {
-  tom4.currentTime = 0
-  tom4.play();
-}
-btn8.addEventListener("click", tom4Play, false);
+btn7.addEventListener("click", function() {
+  soundPlay(tom3);
+}, false);
+
+btn8.addEventListener("click", function() {
+  soundPlay(tom4);
+}, false);
+

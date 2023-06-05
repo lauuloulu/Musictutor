@@ -26,7 +26,7 @@ header ul li{
     width: 100vw;
     background-color: var(--primary-color);
     margin: 0;
-    padding: 10% 0 3% 0;
+    padding: 1% 0 0 0;
     font-family: 'Roboto', sans-serif;
     padding-top: 17%;
 }
@@ -70,12 +70,32 @@ header ul li{
 .btn-container{
 
     background-image: url("../assets/images/drum.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    width: 395px;
+    width: 370px;
     padding-bottom: 60px;
+    color: white;
 }
 
+.btn-container button:active {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-container button.let-active {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+      0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+  
 .btn-contain1{
     display: flex;
     justify-content: space-between;
@@ -86,14 +106,15 @@ header ul li{
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: orange;
+    margin-top: 31px;
 }
 
 #btn2{
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: orange;
+    margin-top: 31px;
+
    
 } 
 
@@ -102,9 +123,8 @@ header ul li{
     width: 80px;
     height: 76px;
     border-radius: 50%;
-    bottom: 27px;
-    right: 9px;
-    background-color: pink;
+    bottom: 35px;
+
 }
 
 #btn4{
@@ -112,9 +132,7 @@ header ul li{
     width: 80px;
     height: 76px;
     border-radius: 50%;
-    bottom: 27px;
-    left: 10px;
-    background-color: pink;
+    bottom: 35px;
 }
 
 .btn-contain3{
@@ -125,9 +143,8 @@ header ul li{
 }
 
 #btn5{
-    margin-top: 16px;
+    margin-top: 8px;
     margin-left: 31px;
-    background-color: green;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -136,8 +153,7 @@ header ul li{
 }
 #btn6{
     margin-right: 35px;
-    margin-top: 7px;
-    background-color: green;
+    margin-top: -2px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -155,16 +171,19 @@ header ul li{
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: yellow;
     position: relative;
+    bottom: 16px;
+    left: 2px;
 }
 
 #btn8{
     width: 76px;
     height: 76px;
     border-radius: 50%;
-    background-color: yellow;
     position: relative;
+    bottom: 16px;
+    right: 6px;
+
 }
 
 
