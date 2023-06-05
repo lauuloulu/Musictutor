@@ -5,9 +5,17 @@
 .navbar {
     background-color: var(--primary-color);
 }
-.nav-link{
-    color: white;
+
+.nav-link {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
+header ul li{
+    display: inline-table;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+} 
 
 .main-container{
     display: flex;
@@ -20,6 +28,7 @@
     margin: 0;
     padding: 10% 0 3% 0;
     font-family: 'Roboto', sans-serif;
+    padding-top: 17%;
 }
 
 .main-title{
@@ -29,7 +38,6 @@
     text-align: center;
     color: #fff;
     font-size: 40px;
-    z-index: 1;
 }
 
 .title-details{
