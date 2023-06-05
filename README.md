@@ -59,7 +59,10 @@
    - Bootstrap
    - JavaScript
    
+   <h2> Nuestro User Flow </h2>
    
+   ![user flow](https://github.com/lauuloulu/Musictutor/assets/132447020/b9240db9-a5ac-4cea-b860-90a75894898e)
+
    ## Autoras
 
 | [<img src="https://avatars.githubusercontent.com/u/132446914?v=4" width=115><br><sub>Laura Prat</sub>](https://github.com/lauuloulu) |  [<img src="https://avatars.githubusercontent.com/u/109661844?v=4" width=115><br><sub>Alba Velasco</sub>](https://github.com/Dafnay) |  [<img src="https://avatars.githubusercontent.com/u/132447020?v=4" width=115><br><sub>Magdalena Filgueira</sub>](https://github.com/MaggieFilgueira) | [<img src="https://avatars.githubusercontent.com/u/132467977?v=4" width=115><br><sub>Mariene Lopez</sub>](https://github.com/mariene33) | [<img src="https://avatars.githubusercontent.com/u/108815965?v=4" width=115><br><sub>Andreina</sub>](https://github.com/Andre-889) |
