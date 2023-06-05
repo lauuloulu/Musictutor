@@ -1,9 +1,37 @@
-.img-triangle{
+.main-container-triangle{
     width: 250px;
     height: 300px;
     background-image: url(../assets/images/triangle\ 2.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 60px;
+    color: white;
+    left: 10%;
+    position: relative;
 }
+
+.btn-container1-tri{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 141px;
+}
+
+.btn8-tri{
+    margin-top: 20px;
+    padding-top: 200px;
+}
+
+
+.btn-container2-tri{
+    display: flex;
+    justify-content: center;
+    top: 238px;
+    position: relative;
+}
+
+
 #footer-main-button {
     background-color: var(--secondary-color);
     color: #000;
